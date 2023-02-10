@@ -1,0 +1,936 @@
+/* Type your CSS code here. */
+/* FONTLAR */
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+.grfktext {
+    border: 1px solid #444;
+    border-radius: 6px;
+}
+@keyframes color {
+	0%   { background: #33CCCC; }
+	20%  { background: #33CC36; }
+	40%  { background: #B8CC33; }
+	60%  { background: #FCCA00; }
+	80%  { background: #33CC36; }
+	100% { background: #33CCCC; }
+}
+.mystyle {
+  animation: color 1s infinite linear;
+}
+
+/* YURTLUM MAİN COLOR KOD • yellow #f5c335 • brown #703100 • */
+:root {
+  --yurtlum-black: #000;
+  /* var(--yurtlum-yellow) */
+    
+  --yurtlum-yellow: #f5c335;
+  /* var(--yurtlum-yellow) */
+  --yurtlum-brown: #703100;
+  /* var(--yurtlum-brown) */
+  --yurtlum-brown2: #703100;
+  /* var(--yurtlum-brown2) */
+
+  --yurtlum-yellow2: #f5c335;
+  /* var(--yurtlum-yellow) */
+  --yurtlum-yellow: #f5c335;
+}
+
+/* Yurtlum Logo */
+#logo {
+   background: url(https://i.imgur.com/Py1mCH7.png) !important;
+   background-size: cover !important;
+   /* opacity: 0.5; */
+    /* display: none !important; */
+   
+}
+.maylink {
+    background: url(https://i.imgur.com/7NThdFl.png);
+    background-size: cover;
+    
+}
+#contboxtainer > div:nth-child(1){
+    transform: translate(-710px, 0px);
+    position: absolute;
+}
+
+/* SOL PANEL LİNKLER STİL */
+.baba {
+display: grid;
+grid-template-columns: repeat(4, 60px);
+grid-template-rows: repeat(3, 42px);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+
+/* BURASI AYARLAMA */
+color: #333;
+margin: 0 auto;
+text-align: center;
+top: 110px;
+transform: translate(-420px, 0px);
+position: absolute;
+background: #333;
+padding: 10px;
+border-radius: 18px;
+}
+
+
+
+
+.pg1, .pg2, .pg3, .pg4, .pg5 { grid-area: 1 / 1 / 2 / 2;
+    background-color: #ppp;
+    border-radius: 10px;
+    border: 1.5px solid white;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    transform: scale(1);
+    transition: transform 240ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .div1:active, .div2:active, .div3:active, .div4:active, .div5:active, .div6:active, .div7:active, .div8:active, .div9:active, .div10:active, .div11:active, .div12:active */
+div.baba div:active{
+    transform: translate(0, 3px);
+}
+/* SOL PANEL DİVLERE ÖZEL ZEMİN AYARLAMA */
+.div1:hover{background-color: #a01414;}
+.div2:hover{background-color: #2055a4;}
+.div3:hover{background-color: #0e8f34;}
+.div4:hover{background-color: #9d1e2f;}
+
+.div5:hover{background-color: #1967d2;}
+.div6:hover{background-color: #fa2356;}
+.div7:hover{background-color: #FF9600;}
+.div8:hover{background-color: #00a9ff;}
+
+.div9:hover{background-color: #54616c;}
+.div10:hover{background-color: #247f4f;}
+.div11:hover{background-color: #a01414;}
+.div12:hover{background-color: #54616c;}
+
+.div25:hover{background-color: #54616c;}
+.div26:hover{background-color: #54616c;}
+
+.pg3:hover{background-color: #54616c;}
+
+
+/* DİV 1 SVG İCON */
+
+body > div.countup3 > div > div.div1 > span > a > svg{
+    color: #fff;
+}
+
+.gizle{
+    display: none;
+}
+
+
+
+
+.s1 { grid-area: 1 / 1 / 2 / 2; }
+.s2 { grid-area: 1 / 2 / 2 / 3; }
+.s3 { grid-area: 1 / 3 / 2 / 4; }
+.s4 { grid-area: 1 / 4 / 2 / 5; }
+
+.s5 { grid-area: 2 / 1 / 3 / 2; }
+.s6 { grid-area: 2 / 2 / 3 / 3; }
+.s7 { grid-area: 2 / 3 / 3 / 4; }
+.s8 { grid-area: 2 / 4 / 3 / 5; }
+
+.s9  { grid-area: 3 / 1 / 4 / 2; }
+.s10 { grid-area: 3 / 2 / 4 / 3; }
+.s11 { grid-area: 3 / 3 / 4 / 4; }
+.s12 { grid-area: 3 / 4 / 4 / 5; }
+
+
+.div61 {
+    background: url(https://i.imgur.com/7NThdFl.png) -12px center;
+    background-size: cover;
+}
+.div62 {
+    background: url(https://i.hizliresim.com/80eojn8.png) -12px center;
+    background-size: cover;
+}
+.div63 {
+    background: url(https://i.imgur.com/TrETgYH.png) -12px center;
+    background-size: cover;
+}
+
+
+
+
+
+
+#konfeti{
+    position: absolute;
+    z-index: 9999999;
+    width: 100vh;
+    height: 100vh;
+    top: 0px;
+}
+/* Giriş */
+#wrapper.login .box, #wrapper #container #right .section .box, #wrapper #container #right .sectiontwo .box {
+    width: 400px;
+}
+div#wrapper div.title{
+    border-radius: 10px;
+}
+div#wrapper div.content{
+    border-radius: 10px;
+}
+div.content{
+    background: #333 !important;
+}
+div#loginlogo{
+    background: url(https://i.hizliresim.com/ct5to4b.png);
+    margin-bottom: 40px !important;
+}
+#loginlogo > img{
+    visibility: hidden;
+}
+div.box{
+    border: 0 solid #af0d0d00;
+    /* width: 400px !important; */
+}
+/* ÇAĞIRMA PANELİ */
+div.fisOnayla {
+    background-color: #333;
+    border-radius: 40px;
+    border: 2px solid #5c5c5c;   
+}
+div.fisSira span {
+    color: var(--yurtlum-yellow);
+}
+#guvenlikkodu{
+    border: none;
+}
+input:focus-visible#guvenlikkodu{
+    border: none;
+    outline: 1.5px solid #02dcff;
+}
+/* Tarih Başlık */
+div.ui-datepicker-title{
+    color: #444;
+}
+/* 1 DAKİKAYA UZAT */
+button.green {
+    border: 1px solid #4b970000;
+}
+/* ONAY BEKLEYENLER */
+button.blue span{
+    background: #0202c200;
+    border-radius: 6px;
+    color: var(--yurtlum-yellow2);
+}
+button.blue span:hover{
+    opacity: 0.8;
+}
+button.green:hover {
+    opacity: 0.8;
+}
+/* MESAJLAR */
+#wrapper #container #right .section {
+    background: #33;
+}
+
+
+
+/* BENİ ÇAĞRI LİSTESİNE EKLE */
+button#sirayagir,span#uzat span {
+    border: 1px solid #20450000 !important;
+    font-family: 'Kanit', sans-serif;
+}
+button#sirayagir > span,span#uzat span {
+    background: #00761a;
+    border-radius: 6px;
+}
+button#sirayagir > span:hover{
+    opacity: 0.8;
+}
+/* BENİ ÇAĞRI LİSTESİNDEN ÇIKAR */
+button#siradancikar {
+    border: 1px solid #20450000 !important;
+}
+button#siradancikar > span {
+    background: #bd0000;
+    border-radius: 6px;
+}
+button#siradancikar > span:hover{
+    opacity: 0.8;
+}
+/* YÖNETİCİYE SOR */
+button#yoneticiyeSor{
+    border: 1px solid #001a6f00 !important;
+    margin-left: 10px;
+}
+button#yoneticiyeSor > span,button.blue{
+    background: var(--yurtlum-brown);
+    border-radius: 6px;
+    border: 1px solid #0049ac00;  
+}
+
+button#yoneticiyeSor > span:hover,button.blue:hover{
+    opacity: 0.8;
+}
+/* MESAJLAR */
+button.green{   
+    border: 1px solid #0049ac00;   
+}
+div#right td:nth-child(1) > button.green > span{
+    color: var(--yurtlum-yellow2);
+}
+button.green span{
+    background: var(--yurtlum-brown);
+    border-radius: 6px;
+    color: #fff;
+}
+button.green:hover{
+    opacity: 0.8;
+}
+/* PROFİL */
+button.orange{   
+    border: 1px solid #0049ac00;
+}
+button.orange span{
+    background: var(--yurtlum-brown);
+    border-radius: 6px;
+    color: var(--yurtlum-yellow2);
+}
+button.orange:hover{
+    opacity: 0.8;
+}
+    *{
+    -moz-box-shadow: 0 0 0 !important;
+    -webkit-box-shadow: 0 0 0 !important;
+    box-shadow: 0 0 0 !important;
+    font-family: 'Kanit', sans-serif !important;
+    }
+button{
+    border: 1px solid #d2d2d200;
+}
+button span {
+    color: #333;
+    background: #fFF;
+}
+
+/* Hover İptal */
+button:hover {
+    opacity: 1;
+}
+buttonn.green:hover {
+    border: 0px solid red !important;
+}
+/* Button Yana Alma */
+table tbody td {
+    padding: 8px 7px;
+    border: 0px solid;
+    color: #fff;
+}
+    
+/* Dark Mode Theme */
+html, body {
+    background: #1e1e1e;
+}
+div#top2, tr, div#right div.header > div, div#right div.user_info, div#grafikerpage, div#right{
+    background: #444 !important;
+    position: relative !important;
+}
+div#right div.header{
+    background: #444 !important;
+    color: #fff;
+}
+
+body{
+    margin-top: 300px;
+}
+#wrapper #container{
+    box-shadow: 0 0;
+    background: #444 !important;
+}
+#wrapper, #container, #top2 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: #444;
+}
+
+
+/* ARAMA KUTULARI İÇİN */
+.ui-datepicker-header {
+    background: #fff;
+}
+#arasonuc{
+    background-color: #444 !important;
+}
+.divli:hover{
+	background-color:#333;
+}
+table thead tr th, table tfoot tr th {
+    color: #fff;
+}
+html, body {
+    color: #fff;
+}
+/* Silme */
+div#labels{
+    display: none;
+}
+
+#right > table:nth-child(4) > tbody > tr:nth-child(2) > td:nth-child(2),#right > div.shout_box > div.header,#right > div.shout_box > div.toggle_chat{
+    display: none;
+}
+/* SAAT */
+#container2{
+  user-select: none;
+  font-family: 'Kanit', sans-serif;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  color: #fff;
+  font-size: 40px;
+}
+.clock{
+    background: #444;
+    border-radius: 8px;
+    margin: 5px;
+    line-height: 40px;
+    width: 150px;
+    height: 40px;
+}
+.c3{
+  display: none;
+}
+/* SAAT */
+/* GÜN */
+#container3{
+    user-select: none;
+    font-family: 'Kanit', sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    top: 52px;
+    color: #fff;
+    font-size: 20px;
+}
+#YurtlumGun{
+    background-color: #44444400;
+    border-radius: 8px;
+    margin: 5px;
+    line-height: 27px;
+    width: 482px;
+    height: 27px;
+}
+
+/* GÜN */
+
+/* TİMER */
+/* general styling */
+.countup{
+    display: flex;
+    justify-content: center;
+    
+}
+.countdown {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+    top: 90px;
+    position: absolute;
+    /* display: flex;
+    flex-direction: column; */
+    background: #444;
+    padding: 10px;
+    border-radius: 18px;
+    /* width: 462px;
+    height: 177px; */
+}
+.havalirenk {
+    top: 85px;
+    position: absolute;
+    background: #1e1e1e;
+    width: 481px;
+    height: 198px;
+    padding: 5px;
+    border-radius: 22px;
+    width: 490px;
+}
+
+
+h3 {
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 1px;
+  background-color: #1e1e1e;
+  padding: 10px;
+  margin: 0;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.countdown-timer, .countdown-timer2{
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+	
+}
+
+.hours, .minutes, .seconds {
+    background-color: #333;
+    font-size: 40px;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: #fff;
+	padding: 12px 40px;
+    width: 68px;
+    height: 30px;
+    line-height: 28px;
+}
+}
+.minutes{
+    margin: 0 10px;
+}
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  margin: 20px;
+}
+.altbar{
+  background-color: #333;
+  color: #fff;
+  font-size: 30px;
+  width: 148px;
+  height: 54px;
+  line-height: 54px;
+  border-radius: 10px;
+ 
+}
+/* TİMER */
+/*  358 358 358 GHBG TİMER */
+.countup2, .countup3 {
+    display: flex;
+    justify-content: center;
+}
+
+.ghbgpng{
+    display: inline-block;
+    background: url(https://i.hizliresim.com/cxxxgj9.png);
+    width: 196px;
+    height: 79px;
+    transform: scale(0.85);
+    transition: transform 240ms linear;
+}
+.ghbgpng:hover{
+    transform: scale(0.95);
+    
+}
+
+div.ghbg.countdown {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+    top: 90px;
+/*     right: 49px; */
+    position: absolute;
+    /* display: flex;
+    flex-direction: column; */
+    background: #4440;
+    padding: 10px;
+    border-radius: 18px;
+    transform: translate(433px, 0px);
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 1px;
+  background-color: #1e1e1e;
+  padding: 10px;
+  /* margin: .25em; */
+  border-radius: 10px;
+  color: #fff;
+}
+
+.countdown-timer, .countdown-timer2{
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+	
+}
+
+div.ghbg.hours, div.ghbg.minutes, div.ghbg.seconds {
+    background-color: #333;
+    font-size: 40px;
+    margin: 10px 4px;
+    border-radius: 10px;
+    color: #fff;
+	padding: 12px 10px;
+    height: 15px;
+    line-height: 14px;
+}
+div.ghbg.hours{
+    margin-left: 0;
+}
+div.ghbg.seconds{
+    margin-right: 0;
+}
+
+}
+.minutes{
+    margin: 0 10px;
+}
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  margin: 20px;
+}
+.ghbg.altbar{
+  background-color: #333;
+  color: #fff;
+  font-size: 20px;
+  width: 88px;
+  height: 30px;
+  line-height: 28px;
+  border-radius: 10px;
+ 
+}
+
+/* GHBG TİMER */
+
+
+/* FB LİNK HÜS */
+
+.fbs{
+    color: #333;
+    top: 170px;
+    position: absolute;
+    background: #321313;
+    width: 190px;
+    height: 190px;
+    border-radius: 18px;
+    transform: translate(321px, -76px);
+    background: url(https://media.tenor.com/srbYdsNYPJoAAAAM/fener-fenerbahce.gif);
+    background-size: cover;
+    background-position: 0px;
+    display: none;
+    
+}
+/* FB LİNK HÜS */
+
+
+
+
+
+
+/* NAMAZ VAKİTLERİ */
+/* #namaz {
+    top: 319px;
+    position: absolute;
+    z-index: 999;
+    transform: translateX(355px);
+} */
+
+/* NAMAZ VAKİTLERİ */
+/* Logout Panel */
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+/* Profile İsim ve Çıkış */
+#contboxtainer{
+ top: 319px;
+ position: absolute;
+ z-index: 9999;
+ transform: translateX(355px);
+}
+
+#boxtainer{
+  display: flex;
+  background-color: var(--yurtlum-yellow);
+  height: 50px;
+  width: 400px;
+  border-radius: 15px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1px;
+  position: relative;
+}
+.maylink {
+    display: flex;
+    background-color: var(--yurtlum-yellow);
+    height: 50px;
+    width: 400px;
+    border-radius: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+
+
+.box{
+  background-color: var(--yurtlum-brown);
+  border-radius: 11px;
+}
+
+.box1, .box3{
+  width: 43px;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--yurtlum-yellow);
+  font-size: 20px;
+}
+
+.box2{
+  width: 294px;
+  margin: 0 0px;
+  height: 43px;
+}
+.may{
+  display: block;
+}
+a.maytube{
+  display: block;
+  text-decoration: none;
+  color: var(--yurtlum-yellow2);
+  font-family: 'Secular One', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  line-height: 43px;
+}
+.maytube, .exit-prof{
+  color: #fff;
+  transition: transform 240ms linear;
+}
+.maytube:hover{
+  text-decoration: underline;
+  transform: scale(1.1);
+  color: var(--yurtlum-yellow2);
+}
+.exit-prof:hover{
+  transform: scale(1.3);
+  color: var(--yurtlum-yellow2);
+}
+/* Profile İsim ve Çıkış */
+/* Logout Panel */
+
+
+/* Custom Scrollbar */
+::-webkit-scrollbar{
+    width: auto;}
+::-webkit-scrollbar-track{
+    background: #444;
+}
+::-webkit-scrollbar-thumb{
+    background: #000;
+    border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #222;
+}
+@supports (scrollbar-color: red blue){
+    *{
+        scrollbar-color: #000 rgb(80, 38, 13);
+    }
+}
+
+
+/* Custom Scrollbar */
+
+*{
+    user-select: none;
+}
+
+#Yurtlumgun{
+    display: none;
+}
+
+
+/* TOOLTİP HOVER EFFECT */
+/* tooltip */
+[data-tooltip][aria-label] {
+  position: relative;
+}
+[data-tooltip][aria-label]::before {
+  content: attr(aria-label);
+  pointer-events: none;
+  white-space: pre;
+  position: absolute;
+  color: #fff;
+  background: #555;
+  padding: 5px;
+  border-radius: 0.3rem;
+  opacity: 0;
+  visibility: none;
+}
+[data-tooltip][aria-label]::after {
+  content: "";
+  pointer-events: none;
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-color: #555;
+  border-width: 0;
+  border-style: solid;
+  opacity: 0;
+  visibility: none;
+}
+[data-tooltip^="up"][aria-label]::before {
+  bottom: calc(0.5rem + 100%);
+  right: 50%;
+  transform: translate(50%, -10px);
+}
+[data-tooltip^="up"][aria-label]::after {
+  border-top-width: 0.5rem;
+  border-right-width: 0.5rem;
+  border-right-color: #0000;
+  border-left-width: 0.5rem;
+  border-left-color: #0000;
+  bottom: 100%;
+  right: 50%;
+  transform: translate(50%, -10px);
+}
+
+[data-tooltip][aria-label]:hover::before,
+[data-tooltip][aria-label]:hover::after {
+  visibility: visible;
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+[data-tooltip$="100"][aria-label]:hover::before,
+[data-tooltip$="100"][aria-label]:hover::after {
+  transition-delay: 0.1s;
+}
+[data-tooltip$="500"][aria-label]:hover::before,
+[data-tooltip$="500"][aria-label]:hover::after {
+  transition-delay: 0.5s;
+}
+[data-tooltip$="1000"][aria-label]:hover::before,
+[data-tooltip$="1000"][aria-label]:hover::after {
+  transition-delay: 1s;
+}
+
+/* wrapper setup */
+.wrapper {
+  width: 150%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+#myButton {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 0px;
+    padding: 5px;
+    padding-bottom: 28px;
+    background-color: #5a5a5a;
+    color: white;
+    font-size: 16px;
+    // height: 50px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    transform: scale(0.8);
+}
+
+#myButton:hover {
+  transform: scale(0.8);
+  background-color: black;
+}
+
+#myButton:active {
+    transform: scale(0.8) translate(0, 5px);
+}
+
+
+.babanum{
+    display: flex;
+    position: absolute;
+    top: 75px;
+    transform: translate(-420px, 0px);
+    align-items: center;
+}
+
+.num1 { grid-area: 1 / 1 / 2 / 2; }
+.num2 { grid-area: 1 / 2 / 2 / 3; }
+.num3 { grid-area: 1 / 3 / 2 / 4; }
+.num4 { grid-area: 1 / 4 / 2 / 5; }
+.num5 { grid-area: 1 / 5 / 2 / 6; }
+
+.num{
+    background: var(--yurtlum-brown);
+    color: var(--yurtlum-yellow2);
+    padding: 5px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0px 5px 0px 5px;
+    padding: 0px 10px;
+}
+
+.baba *{
+    /* display: none; */
+}
+
+.btn:hover, .btn:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.inputyellow:checked + .labelyellow {
+    background: var(--yurtlum-yellow);
+    color: var(--yurtlum-black);
+}
+input[name="btndeg"] {
+    display: none !important;
+}
+
+.pg2, .pg3, .pg4, .pg5{
+    display: none;
+}
+.pg3{
+    font-size: 30px;
+}
+.pg5 {
+    font-size: 10px;
+}
+a, a:link, a:active, a:visited {
+    color: #fff;
+}
+/* #logo{
+    display: none !important;
+} */
+
+.confeti{
+    background: url(https://i.gifer.com/origin/1a/1af8d3b487b77085d5288814f151e1de_w200.gif);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99999999999;
+    top: 0px; 
+}
